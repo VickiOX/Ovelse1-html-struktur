@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+article{
+    border:2px solid black;
+}
+
+footer{
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+section{
+    gap: 1rem;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: 500px;
+}
